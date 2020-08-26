@@ -1,0 +1,22 @@
+@charset "utf-8";
+html{
+  /* font-size: 62.5%; */
+}
+*, *::before, *::after{
+  /* box-sizing: border-box; */
+}
+body{
+  margin: 0;
+  background: url('images/daniel-hehn-NdkM92CRaxg-unsplash_640_426_.jpg');
+  width: 700px;
+  height: 500px;
+  background-size: contain ;
+}
+/* coverは、比率を保ったまま縦横のどちらか先にbody幅に到達したら止まる。残りは切れる。 */
+
+/* containは、比率を保ったまま。必ず、最低一枚の画像の全てがブラウザに写る。また、画像の短い辺のほうに合わせてる。
+元画像より大きくなることはない。widthとheightを指定しないと画像が表示されないのはしていしないとその要素の大きさが0のままだから。 */
+/* widthとheight無しでも<h>,<p>など高さを持つ要素があれば画像貼り付けは可能 */
+/* 背景領域に収まる最大サイズ=指定領域に最低一枚は入る。 */
+
+
